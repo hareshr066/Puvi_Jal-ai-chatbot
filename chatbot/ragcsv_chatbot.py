@@ -5,7 +5,7 @@ from groq import Groq   # Groq client
 
 # ========= CONFIG =========
 EXCEL_FILE = "chatbot.xlsx"   # <-- put your Excel file name here
-GROQ_API_KEY = "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"   # <-- paste your Groq API key
+GROQ_API_KEY = "YOUR API KEY (GROQ)"   # <-- paste your Groq API key
 # ==========================
 
 # ===== STEP 1: Load Excel =====
@@ -74,3 +74,4 @@ if __name__ == "__main__":
             break
         answer = rag_chatbot(user_query)
         print("🤖 Bot:", answer)
+
